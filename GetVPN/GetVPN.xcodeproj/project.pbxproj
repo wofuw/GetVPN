@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567CF1B322EEF2B0006038AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CF1B222EEF2B0006038AF /* AppDelegate.m */; };
+		567CF1B622EEF2B0006038AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CF1B522EEF2B0006038AF /* ViewController.m */; };
+		567CF1B822EEF2B2006038AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567CF1B722EEF2B2006038AF /* Assets.xcassets */; };
+		567CF1BB22EEF2B2006038AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567CF1B922EEF2B2006038AF /* Main.storyboard */; };
+		567CF1BE22EEF2B2006038AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CF1BD22EEF2B2006038AF /* main.m */; };
+		567CF1C722EEF551006038AF /* ZTGetVPN.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CF1C522EEF551006038AF /* ZTGetVPN.m */; };
+		567CF1C922EEFF34006038AF /*  closeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 567CF1C822EEFF33006038AF /*  closeBtn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		567CF1AE22EEF2B0006038AF /* GetVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567CF1B122EEF2B0006038AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		567CF1B222EEF2B0006038AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		567CF1B422EEF2B0006038AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		567CF1B522EEF2B0006038AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		567CF1B722EEF2B2006038AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567CF1BA22EEF2B2006038AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		567CF1BC22EEF2B2006038AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567CF1BD22EEF2B2006038AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		567CF1BF22EEF2B2006038AF /* GetVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetVPN.entitlements; sourceTree = "<group>"; };
+		567CF1C522EEF551006038AF /* ZTGetVPN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTGetVPN.m; sourceTree = "<group>"; };
+		567CF1C622EEF551006038AF /* ZTGetVPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTGetVPN.h; sourceTree = "<group>"; };
+		567CF1C822EEFF33006038AF /*  closeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " closeBtn.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567CF1AB22EEF2B0006038AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567CF1A522EEF2B0006038AF = {
+			isa = PBXGroup;
+			children = (
+				567CF1B022EEF2B0006038AF /* GetVPN */,
+				567CF1AF22EEF2B0006038AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567CF1AF22EEF2B0006038AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567CF1AE22EEF2B0006038AF /* GetVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567CF1B022EEF2B0006038AF /* GetVPN */ = {
+			isa = PBXGroup;
+			children = (
+				567CF1C622EEF551006038AF /* ZTGetVPN.h */,
+				567CF1C522EEF551006038AF /* ZTGetVPN.m */,
+				567CF1B122EEF2B0006038AF /* AppDelegate.h */,
+				567CF1B222EEF2B0006038AF /* AppDelegate.m */,
+				567CF1B422EEF2B0006038AF /* ViewController.h */,
+				567CF1B522EEF2B0006038AF /* ViewController.m */,
+				567CF1C822EEFF33006038AF /*  closeBtn.png */,
+				567CF1B722EEF2B2006038AF /* Assets.xcassets */,
+				567CF1B922EEF2B2006038AF /* Main.storyboard */,
+				567CF1BC22EEF2B2006038AF /* Info.plist */,
+				567CF1BD22EEF2B2006038AF /* main.m */,
+				567CF1BF22EEF2B2006038AF /* GetVPN.entitlements */,
+			);
+			path = GetVPN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567CF1AD22EEF2B0006038AF /* GetVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567CF1C222EEF2B2006038AF /* Build configuration list for PBXNativeTarget "GetVPN" */;
+			buildPhases = (
+				567CF1AA22EEF2B0006038AF /* Sources */,
+				567CF1AB22EEF2B0006038AF /* Frameworks */,
+				567CF1AC22EEF2B0006038AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetVPN;
+			productName = GetVPN;
+			productReference = 567CF1AE22EEF2B0006038AF /* GetVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567CF1A622EEF2B0006038AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "zhang teng";
+				TargetAttributes = {
+					567CF1AD22EEF2B0006038AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 567CF1A922EEF2B0006038AF /* Build configuration list for PBXProject "GetVPN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567CF1A522EEF2B0006038AF;
+			productRefGroup = 567CF1AF22EEF2B0006038AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567CF1AD22EEF2B0006038AF /* GetVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567CF1AC22EEF2B0006038AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567CF1B822EEF2B2006038AF /* Assets.xcassets in Resources */,
+				567CF1BB22EEF2B2006038AF /* Main.storyboard in Resources */,
+				567CF1C922EEFF34006038AF /*  closeBtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567CF1AA22EEF2B0006038AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567CF1B622EEF2B0006038AF /* ViewController.m in Sources */,
+				567CF1BE22EEF2B2006038AF /* main.m in Sources */,
+				567CF1B322EEF2B0006038AF /* AppDelegate.m in Sources */,
+				567CF1C722EEF551006038AF /* ZTGetVPN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		567CF1B922EEF2B2006038AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567CF1BA22EEF2B2006038AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		567CF1C022EEF2B2006038AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		567CF1C122EEF2B2006038AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		567CF1C322EEF2B2006038AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetVPN/GetVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ERQX8HMTT9;
+				INFOPLIST_FILE = GetVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test222lopsfd.com.GetVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		567CF1C422EEF2B2006038AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetVPN/GetVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ERQX8HMTT9;
+				INFOPLIST_FILE = GetVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test222lopsfd.com.GetVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567CF1A922EEF2B0006038AF /* Build configuration list for PBXProject "GetVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567CF1C022EEF2B2006038AF /* Debug */,
+				567CF1C122EEF2B2006038AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567CF1C222EEF2B2006038AF /* Build configuration list for PBXNativeTarget "GetVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567CF1C322EEF2B2006038AF /* Debug */,
+				567CF1C422EEF2B2006038AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567CF1A622EEF2B0006038AF /* Project object */;
+}

@@ -1,0 +1,8 @@
+platform :osx, '10.12'
+target 'GetVPN' do
+  
+
+pod 'YYKit'
+
+
+end
